@@ -10,9 +10,9 @@
             <div class="flex flex-col">
                 Useful links:
                 <a href="/about">About</a>
-                <a href="/podcast/listen">Listen</a>
-                <a href="/podcast/subscribe">Cookies</a>
-                <a href="/podcast/become-a-guest">Be a guest</a>
+                <a href="/consultancy">consultancy</a>
+                <a href="/rx7">Rx7</a>
+                <a href="/rx7/book">Book a call</a>
             </div>
         </div>
     @endunless
@@ -21,7 +21,7 @@
         <a href="/about">About</a>
         <a href="/about/privacy">Privacy</a>
         <a href="/about/cookies">Cookies</a>
-        <a href="/about/contact">Contact</a>
+        <a href="/contact">Contact</a>
     </div>
 
     <p class="text-xs mt-2">
