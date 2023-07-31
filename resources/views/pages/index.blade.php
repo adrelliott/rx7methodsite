@@ -1,6 +1,6 @@
 <x-layouts.public>
-    <x-elements.hero-button />
-    <x-layouts.hero>
+    <x-elements.hero-centered buttonText="Click me" buttonLink="about" />
+    <x-elements.hero-centered>
         <h1 class="font-hubot font-title">
             Create a workplace culture they'll tell stories about
         </h1>
@@ -12,7 +12,7 @@
                 QUIZ: What's your workplace culture?
             </button>
         </div>
-    </x-layouts.hero>
+    </x-elements.hero-centered>
 
     <x-layouts.section-full-width class="bg-gray-100">
         <div class="flex md:flex-row">
