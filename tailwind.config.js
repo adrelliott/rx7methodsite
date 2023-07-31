@@ -11,10 +11,11 @@ export default {
   darkMode: 'class',
   
   theme: {
+    fontFamily: {
+      mona: ['Mona Sans', 'sans-serif'],
+      hubot: ['Hubot Sans', 'Tahoma', 'sans-serif'],
+    },
     extend: {
-      fontFamily: {
-        sans: ['Figtree', ...defaultTheme.fontFamily.sans],
-      },
       colors: {
           'primary': {
               'light': '#F88237',
