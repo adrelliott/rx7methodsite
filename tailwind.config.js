@@ -38,6 +38,10 @@ export default {
               'dark': '#1E3A8A',
           }
       },
+      listStyleImage: {
+        checkmark: 'url("/assets/img/common/check.png")',
+        bolt: 'url("/assets/img/common/bolt.png")',
+      },
     },
   },
   plugins: [typography],
