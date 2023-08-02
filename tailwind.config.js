@@ -39,8 +39,8 @@ export default {
           }
       },
       listStyleImage: {
-        checkmark: 'url("/assets/img/common/check.png")',
-        bolt: 'url("/assets/img/common/bolt.png")',
+        checkmark: 'url("../assets/img/common/check.png")',
+        bolt: 'url("../assets/img/common/bolt.png")',
       },
     },
   },

@@ -8,8 +8,8 @@
         <title>{{ config('app.name', 'Truth Lies & Work') }}</title>
 
         <!-- Fonts -->
-        <link rel="preload" href="/assets/fonts/Hubot-Sans.woff2" as="font" type="font/woff2" crossorigin>
-        <link rel="preload" href="/assets/fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="assets/fonts/Hubot-Sans.woff2?preload" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="assets/fonts/Mona-Sans.woff2?preload" as="font" type="font/woff2" crossorigin>
         
 
         <!-- Scripts & Styles-->
