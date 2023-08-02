@@ -10,21 +10,35 @@
         <p class="lead">
             We get it. You're about 1/10th of a second away from pressing 'back', so let's give you the 9 second skinny.
         </p>
-        <ul class="not-prose disc-image-none">
-            <li>
-                <span class="font-bold">Who's this for?</span> <span class="font-lighter">Business owners/leaders who have 20 - 200 employees</span>
-            </li>
-        </ul>
-        
-
-
-                
-What the heck is it? It's a model for workplace culture that consists of 7 foundations.
-Why only 7? 'Cos our psychologists discovered that's all you need. 
-How does it work? We discover what you're missing and show you how to fix it. 
-How can it help me? Looking to grow, sell or raise investment? This is perfect for you.
-What do I do next? Take a look at the model - if it makes sense to you, let's talk. 
-
-            
+        <dl>
+            <dt class="font-bold">Who's this for?</dt>
+            <dd>
+                Business owners/leaders who have 20 - 200 employees
+            </dd>
+            <dt class="font-bold">What the heck is it?</dt>
+            <dd>
+                It's a model for workplace culture that consists of 7 foundations.
+            </dd>
+            <dt class="font-bold">Why only 7?</dt>
+            <dd>
+                ‘Cos our psychologists discovered that's all you need. 
+            </dd>
+            <dt class="font-bold">How does it work?</dt>
+            <dd>
+                We discover what you're missing and show you how to fix it.
+            </dd>
+            <dt class="font-bold">How can it help me?</dt>
+            <dd>
+                Looking to grow, sell or raise investment? This is perfect for you.
+            </dd>
+            <dt class="font-bold">What do I do next?</dt>
+            <dd>
+                Take a look at the model - if it makes sense to you, let's talk.
+            </dd>
+            <dt class="font-bold">How much is it?</dt>
+            <dd>
+                We're not shy about our prices. Here's a calculator for you.
+            </dd>
+        </dl>
     </x-elements.image-left>
 </x-layouts.section-wide>
