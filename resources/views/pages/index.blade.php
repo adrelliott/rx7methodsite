@@ -1,37 +1,19 @@
 <x-layouts.public>
-    <x-elements.hero-centered buttonText="Click me" buttonLink="about" />
-    <x-elements.hero-centered>
-        <h1 class="font-hubot font-title">
-            Create a workplace culture they'll tell stories about
-        </h1>
-        <p>
-            If you have a team of 20+, you already have a workplace culture - but is it the one you want?
-        </p>
-        <div>
-            <button>
-                QUIZ: What's your workplace culture?
-            </button>
-        </div>
+    <x-elements.hero-centered buttonText="QUIZ: What is our culture?" buttonLink="about">
+        <x-slot name="headline">
+            Create a <span class="underline decoration-primary-light decoration-[0.5rem] xunderline-offset-1 decoration-solid">workplace culture</span> they'll tell stories about
+        </x-slot>
+        <x-slot name="subheadline">
+            If you have a team of 20 or more, you <span class="underline decoration-primary-light decoration-4 xdecoration-[0.25rem] xunderline-offset-1 decoration-solid">already have</span> a workplace culture<br>...but is it the one you want?
+        </x-slot>
     </x-elements.hero-centered>
 
-    <x-layouts.section-full-width class="bg-gray-100">
-        <div class="flex md:flex-row">
-            <div>
-                <h3>Improve your Retention</h3>
-            </div>
-            <div>
-                <h3>Increase your Engagement</h3>
-            </div>
-            <div>
-                <h3>Empower your Leaders</h3>
-            </div>
-        </div>
-    </x-layouts.section-full-width>
-
-    <x-layouts.section-wide>
+    <x-elements.3-benefits />
+    
+    <x-layouts.section-wide class="bg-gray-100">
         <x-elements.image-left>
             <x-slot name="image">
-                <img src="/img/mouse.jpg" alt="Mouse">
+                <img src="/assets/img/static/phone_01_trans_1024.png" alt="Mouse">
             </x-slot>
             <h2>
                 Why bother with culture?
@@ -39,10 +21,10 @@
             <p>
                 It's a fair question. After all, isn't workplace culture a 'nice to have'?
             </p>
-            <p>
+            <span class="mb-0">
                 Not really...
-            </p>
-            <ul>
+            </span>
+            <ul class="mt-0">
                 <li>
                     Imagine never having to fight for top talent again.
                 </li>
@@ -50,14 +32,22 @@
                     Imagine knowing that your culture is so rock solid that your teams will effortlessly handle any challenge you throw at them.
                 </li>
                 <li>
-                    Imagine knowing that your leaders & managers are the very best in the business, and their teams are so loyal nobody ever wants to leave.
+                    Imagine knowing that your leaders & managers are the very best in the business, and their teams are so loyal nobody <i>ever wants to leave</i>.
                 </li>
             </ul>
             <p>
                 Now <i>that</i> would be nice, wouldn't it?
             </p>
+        </x-elements.image-left>
+        <x-elements.image-right>
+            <x-slot name="image">
+                <img src="/assets/img/static/phone_01_trans_1024.png" alt="Mouse">
+            </x-slot>
+            <h2>
+                But we run surveys...
+            </h2>
             <p>
-                This is not hard to do: Instead of running quarterly pulse surveys that measure nothing more than how an employee feels on a particular day, you should instead be concentrating on getting the 7 fundamentals of workplace culture right.
+                It's defintely a start. However, instead of running quarterly pulse surveys that measure nothing more than how an employee feels on a particular day, you should instead be concentrating on getting the 7 fundamentals of workplace culture right.
             </p>
             <p>
                 You’ll have a team who are aligned with the company values, committed to your mission & vision, and ready and willing to go that extra mile to produce the results you need to grow and scale.
@@ -68,8 +58,13 @@
             <p>
                 So, if you're ready to create a workplace culture that your teams will tell stories about, then let's talk.
             </p>
-        </x-elements.image-left>
+        </x-elements.image-right>
     </x-layouts.section-wide>
+
+    <x-elements.pricing-calculator />
+
+
+    <x-elements.tldr />
 
     <x-cta.book-01 />
 
