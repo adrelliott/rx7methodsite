@@ -60,6 +60,46 @@
         <code>x-layouts.section-narrow</code>
         <x-filler />
     </x-layouts.section-narrow>
+    <x-layouts.section-narrow>
+        <code class="pb-24">x-layouts.section-narrow with h1</code>
+        <div class="mt-12"></div>
+        <p class="subhead">
+            The thing that does the thing
+        </p>
+        <h1>
+            Hero centered create your website
+            with Astro 2.0 + Tailwind CSS
+        </h1>
+        <p class="lead">
+            AstroWind is a free, customizable and production-ready template for Astro 2.0 + Tailwind CSS. Suitable for Startups, 
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam voluptatum libero, consequatur pariatur voluptatibus provident atque. Odit enim consequuntur, quibusdam repudiandae iusto ut distinctio expedita minus neque inventore. Obcaecati, expedita!
+        </p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores debitis eveniet temporibus iure, aliquam ducimus provident assumenda? Rerum cum asperiores animi numquam, earum voluptates esse expedita vero voluptatem alias adipisci!
+        </p>
+    </x-layouts.section-narrow>
+    <x-layouts.section-narrow>
+        <code class="pb-24">x-layouts.section-narrow with hero</code>
+        <div class="mt-12"></div>
+        <p class="subhead">
+            The thing that does the thing
+        </p>
+        <h1>
+            Hero centered create your website
+            with Astro 2.0 + Tailwind CSS
+        </h1>
+        <p class="description">
+            AstroWind is a free, customizable and production-ready template for Astro 2.0 + Tailwind CSS. Suitable for Startups, 
+        </p>
+        <p>
+            Lorem ipsum dolor sit, <span class="highlight">amet consectetur adipisicing elit</span>. Numquam voluptatum libero, consequatur pariatur voluptatibus provident atque. Odit enim consequuntur, quibusdam repudiandae iusto ut <a href="/">linkdistinctio expedita minus neque inventore</a>. Obcaecati, expedita!
+        </p>
+        <p>
+            Lorem ipsum, <strong>bolddolor sit amet consectetur adipisicing</strong> elit. Asperiores debitis eveniet temporibus iure, aliquam ducimus provident assumenda? <span class="italic">italicRerum cum asperiores animi numquam</span>, earum voluptates esse expedita vero voluptatem alias adipisci!
+        </p>
+    </x-layouts.section-narrow>
     {{-- /narrow --}}
 
     <x-layouts.section-full-width >
@@ -87,7 +127,21 @@
         <h5>This is H5</h5>
         <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam eveniet recusandae </h5>
         <p>This si paragraph</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quam minima iusto distinctio? </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quam minima iusto distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore vel placeat eius eum voluptatum, odit unde a sunt exercitationem. Et sequi sit exercitationem! Cumque ratione perspiciatis recusandae culpa voluptates.</p>
+        <p>This si paragraph</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quam minima iusto distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore vel placeat eius eum voluptatum, odit unde a sunt exercitationem. Et sequi sit exercitationem! Cumque ratione perspiciatis recusandae culpa voluptates.</p>
+        <h1>This is h1 title</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quam minima iusto distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore vel placeat eius eum voluptatum, odit unde a sunt exercitationem. Et sequi sit exercitationem! Cumque ratione perspiciatis recusandae culpa voluptates.</p>
+        <h2>This is h2 title</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quam minima iusto distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore vel placeat eius eum voluptatum, odit unde a sunt exercitationem. Et sequi sit exercitationem! Cumque ratione perspiciatis recusandae culpa voluptates.</p>
+        <h3>This is h3 title</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quam minima iusto distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore vel placeat eius eum voluptatum, odit unde a sunt exercitationem. Et sequi sit exercitationem! Cumque ratione perspiciatis recusandae culpa voluptates.</p>
+        <h4>This is h4 title</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quam minima iusto distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore vel placeat eius eum voluptatum, odit unde a sunt exercitationem. Et sequi sit exercitationem! Cumque ratione perspiciatis recusandae culpa voluptates.</p>
+        <h5>This is h5 title</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quam minima iusto distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore vel placeat eius eum voluptatum, odit unde a sunt exercitationem. Et sequi sit exercitationem! Cumque ratione perspiciatis recusandae culpa voluptates.</p>
+        <h6>This is h6 title</h6>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quam minima iusto distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore vel placeat eius eum voluptatum, odit unde a sunt exercitationem. Et sequi sit exercitationem! Cumque ratione perspiciatis recusandae culpa voluptates.</p>
     </x-layouts.section-wide>
     
     <div class="mb-[1024px]"></div>
