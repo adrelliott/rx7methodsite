@@ -8,7 +8,7 @@
         </x-slot>
     </x-elements.hero-centered>
 
-    <x-elements.3-benefits />
+    <x-static.3-benefits />
     
     <x-layouts.section-wide class="bg-gray-100">
         <x-elements.image-left>
@@ -61,10 +61,65 @@
         </x-elements.image-right>
     </x-layouts.section-wide>
 
-    <x-elements.pricing-calculator />
+    <x-static.pricing-calculator />
 
+    <x-static.tldr />
 
-    <x-elements.tldr />
+    <x-elements.pricing-table>
+        <x-slot name="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quaerat provident eos inventore, quas soluta tempore tenetur amet impedit enim distinctio totam, veniam recusandae corporis dolor laborum? Quisquam, necessitatibus. Fugit.
+        </x-slot>
+        
+        <x-elements.pricing-table.three-cols>
+
+            <x-elements.pricing-table.option title="Audit Only" price="950" duration="One-time Fee">                
+                <x-elements.pricing-table.feature>
+                    The thing that does the tjing
+                </x-elements.pricing-table.feature>
+                <x-elements.pricing-table.feature>
+                    The thing that does the tjing
+                </x-elements.pricing-table.feature>
+                <x-elements.pricing-table.feature>
+                    The thing that does the tjing
+                </x-elements.pricing-table.feature>
+                <x-elements.pricing-table.cta link="/book-audit">
+                    Book your audit here
+                </x-elements.pricing-table.cta>
+            </x-elements.pricing-table.option>
+
+            <x-elements.pricing-table.option title="Annual Survey" price="2,950" duration="Annually" flag="POPULAR">                
+                <x-elements.pricing-table.feature>
+                    The thing that does the tjing
+                </x-elements.pricing-table.feature>
+                <x-elements.pricing-table.feature>
+                    The thing that does the tjing
+                </x-elements.pricing-table.feature>
+                <x-elements.pricing-table.feature>
+                    The thing that does the tjing
+                </x-elements.pricing-table.feature>
+                <x-elements.pricing-table.cta link="/book-audit">
+                    Book your audit here
+                </x-elements.pricing-table.cta>
+            </x-elements.pricing-table.option>
+
+            <x-elements.pricing-table.option title="Outsourced CPO" price="3,990" duration="Monthly">                
+                <x-elements.pricing-table.feature>
+                    The thing that does the tjing
+                </x-elements.pricing-table.feature>
+                <x-elements.pricing-table.feature>
+                    The thing that does the tjing
+                </x-elements.pricing-table.feature>
+                <x-elements.pricing-table.feature>
+                    The thing that does the tjing
+                </x-elements.pricing-table.feature>
+                <x-elements.pricing-table.cta link="/book-audit">
+                    Book your audit here
+                </x-elements.pricing-table.cta>
+            </x-elements.pricing-table.option>
+            
+        </x-elements.pricing-table.three-cols>
+    </x-elements.pricing-table>
+    
 
     <x-cta.book-01 />
 
