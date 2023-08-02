@@ -1,15 +1,15 @@
 @props([
     'benefits' => [
         [
-            'icon' => 'icons.briefcase',
+            'icon' => 'briefcase',
             'text' => 'Improve your Recruitment', 
         ],
         [
-            'icon' => 'icons.magnifier',
+            'icon' => 'magnifier',
             'text' => 'Increase your engagement',
         ],
         [
-            'icon' => 'icons.users',
+            'icon' => 'users',
             'text' => 'Empower your Managers',
         ],
     ]
@@ -19,7 +19,7 @@
         @foreach ($benefits as $benefit)
         <div class="bg-slate-700 py-8 text-white flex flex-col gap-2 items-center rounded-md">
             <span>
-                <x-dynamic-component :component="$benefit['icon']" class="w-8 h-8" />    
+                <x-icon :path="$benefit['icon']" class="w-8 h-8" />
             </span>
             <p class="text-xl text-center font-thin xleading-none xmb-0">
                 {{ $benefit['text'] }}
