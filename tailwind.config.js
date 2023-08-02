@@ -15,6 +15,45 @@ export default {
       mona: ['Mona Sans', 'sans-serif'],
       hubot: ['Hubot Sans', 'Tahoma', 'sans-serif'],
     },
+    fontSize: {
+      'sm': ['0.8rem', {
+        lineHeight: '1.12rem',
+        letterSpacing: '1em',
+        fontWeight: '400',
+      }],
+      'base': ['1rem', {
+        lineHeight: '1.4rem',
+        fontWeight: '300',
+      }],
+      'lg': ['1.1rem', {
+        lineHeight: '2.1324rem',
+        fontWeight: '400',
+      }],
+      'xl': ['1.6rem', {
+        lineHeight: '1.92rem',
+        fontWeight: '500',
+      }],
+      '2xl': ['1.777rem', {
+        lineHeight: '2.1324rem',
+        letterSpacing: '-0.01em',
+        fontWeight: '500',
+      }],
+      '3xl': ['2.369rem', {
+        lineHeight: '2.8428rem',
+        letterSpacing: '-0.01em',
+        fontWeight: '600',
+      }],
+      '4xl': ['3.157rem', {
+        lineHeight: '3.157rem',
+        letterSpacing: '-0.01em',
+        fontWeight: '600',
+      }],
+      '5xl': ['4.209rem', {
+        lineHeight: '4.209rem',
+        letterSpacing: '-0.01em',
+        fontWeight: '700',
+      }],
+    },
     extend: {
       colors: {
           'primary': {
@@ -36,7 +75,8 @@ export default {
               'light': '#1E3A8A',
               DEFAULT: '#1E3A8A',
               'dark': '#1E3A8A',
-          }
+          },
+          'highlight': '#E68F45',
       },
       listStyleImage: {
         checkmark: 'url("../assets/img/common/check.png")',
