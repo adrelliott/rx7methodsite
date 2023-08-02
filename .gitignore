@@ -18,3 +18,5 @@ yarn-error.log
 /.idea
 /.vscode
 .DS_Store
+rx7method.sqlite
+rx7method
