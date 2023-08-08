@@ -1,7 +1,7 @@
 @props(['href' => null, 'target' => null, 'ghost' => false, 'icon' => null])
 <a 
     class="
-        btn tracking-tight font-semibold lg:font-light py-2 px-4 rounded border border-primary
+        btn tracking-tight font-semibold xlg:font-light py-2 px-4 rounded border border-primary
         @if($ghost) 
             bg-transparent text-primary hover:bg-primary hover:text-white
         @else
