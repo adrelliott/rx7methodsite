@@ -1,9 +1,30 @@
 <x-layouts.public>
 
-    {{-- hero with merge --}}
+    <x-static.book-a-call-01 />
+
+    <x-layouts.section-full-width>
+        
+    </x-layouts.section-full-width>
+
+
+
+<hr class="mt-64" />
+
     <x-layouts.section-full-width>
         <x-elements.heroes.hero-centered />
+
+        <x-utilities.button-group>
+            <x-utilities.button icon="fastforward">
+                Click here
+            </x-utilities.button>
+            <x-utilities.button ghost="true">
+                Click Gjost
+            </x-utilities.button>
+        </x-utilities.button-group>
+
     </x-layouts.section-full-width>
+
+    <x-static.3-benefits />
 
     {{-- full width --}}
     <x-layouts.section-full-width class="bg-gray-300">
