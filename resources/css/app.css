@@ -34,13 +34,13 @@
     @apply font-body text-base text-slate-800;
   }
   h1, h2, h3, h4, h5 {
-    @apply font-heading mt-4 mb-1 leading-tight tracking-tight;
+    @apply font-heading mt-4 mb-2 leading-tight tracking-tight;
   }
   h1 {
     @apply text-5xl md:text-6xl font-black  mt-2 mb-4;
   }
   h2 {
-    @apply text-4xl md:text-5xl font-bold;
+    @apply text-3xl md:text-4xl font-bold;
   }
   h3 {
     @apply text-3xl md:text-4xl font-bold;
@@ -81,11 +81,8 @@
   article > p.lead {
     @apply pl-2 border-l-4 border-primary;
   }
-  p.description {
-    @apply text-xl text-center mx-3 md:mx-6 lg:mx-12 xl:mx-14 font-light -mt-3 mb-4;
-  }
   p.subhead {
-    @apply font-bold text-lg text-secondary tracking-wide uppercase text-center mb-0;
+    @apply font-bold text-lg text-secondary tracking-wide uppercase text-center mb-0 pb-0;
   }
   .highlight {
     @apply bg-highlight px-1 py-1 rounded;
