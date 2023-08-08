@@ -7,9 +7,9 @@
                 {{ $headline }}
             </h1>
 
-            @isset($subhead)
-                <p class="text-muted text-lg mb-0">
-                    {{ $subhead }}
+            @isset($lead)
+                <p class="text-2xl text-muted">
+                    {{ $lead }}
                 </p>
             @endisset
 
