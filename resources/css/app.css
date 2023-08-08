@@ -52,6 +52,10 @@ html {
     @apply bg-highlight px-1 py-1 rounded;
   }
 
+  h1.hero {
+    @apply leading-none sm:tracking-tighter;
+  }
+
   p {
     @apply mb-4;
   }
