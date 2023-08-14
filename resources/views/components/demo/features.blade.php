@@ -1,6 +1,6 @@
 <x-layouts.section-wide>
     
-    <x-layouts.section-intro>
+    <x-layouts.intro>
         <x-slot name="subhead">
             Features
         </x-slot>
@@ -8,7 +8,7 @@
             What you get with Astro
         </x-slot>
             One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022.
-    </x-layouts.section-intro>
+    </x-layouts.intro>
 
     <x-elements.features>
         <x-elements.features.feature>

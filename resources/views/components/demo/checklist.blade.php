@@ -1,5 +1,5 @@
 <x-layouts.section-full-width class="bg-slate-100">
-    <x-layouts.section-intro>
+    <x-layouts.intro>
         <x-slot name="subhead">
             Inside Template
         </x-slot>
@@ -7,7 +7,7 @@
             And what's inside..?
         </x-slot>
         Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod tacimates.
-    </x-layouts.section-intro>
+    </x-layouts.intro>
     
     <div class="max-w-3xl mx-auto">
         <x-elements.checklist>
