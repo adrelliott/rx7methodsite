@@ -19,7 +19,7 @@
         
     </div>
 
-    <div class="flex justify-center items-stretch gap-4">
+    <div class="flex flex-col lg:flex-row justify-center items-stretch gap-4">
         {{ $slot }} 
     </div>
     
