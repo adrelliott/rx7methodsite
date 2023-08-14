@@ -1,6 +1,6 @@
-<div class="flex h-auto">
-    <div class="flex flex-col p-4 md:p-6 rounded-md shadow-xl">
-        <blockquote class="flex-auto">
+<div class="flex h-auto mt-6">
+    <div class="flex flex-col p-6 lg:p-10 rounded-md shadow-xl border-[0.25px] border-gray-100 lg:border-none">
+    <blockquote class="flex-auto">
             <p class="text-muted">
                 "{{ $slot }}"
             </p>
