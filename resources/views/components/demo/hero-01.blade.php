@@ -15,12 +15,12 @@
     </p>
 
     <x-slot name="button">
-        <div class="mx-auto max-w-3xl mt-6">
+        <div class="mx-auto xmax-w-3xl mt-6">
             <x-elements.buttons.button-group>
-                <x-elements.buttons.button icon="download">
+                <x-elements.buttons.button icon="download" textSize="text-xl">
                     Get Template
                 </x-elements.buttons.button>
-                <x-elements.buttons.button ghost="true">
+                <x-elements.buttons.button ghost="true" textSize="text-xl">
                     Learn More
                 </x-elements.buttons.button>
             </x-elements.buttons.button-group>
