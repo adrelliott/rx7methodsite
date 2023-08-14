@@ -283,7 +283,7 @@
 
     </x-layouts.section-wide>
 
-    <x-layouts.section-wide>
+    <x-layouts.section-full-width class="bg-slate-100">
         <x-elements.columns.four-cols class="gap-10">
             <x-slot name="column1">
                 <x-elements.cards.stat number="124k" description="downloads" />
@@ -298,9 +298,20 @@
                 <x-elements.cards.stat number="£2m" description="savings" />
             </x-slot>
         </x-elements.columns.four-cols>
+    </x-layouts.section-full-width>
+
+
+    <x-layouts.section-wide>
+        <x-elements.cta.centered-card buttonText="Click here" buttonLink="/contact">
+            <x-slot name="heading">
+                Astro + Tailwind CSS from the teamplet
+            </x-slot>
+            <x-slot name="content">
+                the thing that doe shte thing  - this si the namen thing
+            </x-slot>
+
+        </x-elements.cta.centered-card>
     </x-layouts.section-wide>
-
-
 
 
 
