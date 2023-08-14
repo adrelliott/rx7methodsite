@@ -1,26 +1,26 @@
 <x-layouts.public hideNav="true">
     
-    <x-astro.hero-01 />
+    <x-demo.hero-01 />
 
-    <x-astro.ribbon />
+    <x-demo.ribbon />
 
-    <x-astro.features />
+    <x-demo.features />
 
-    <x-astro.checklist />
+    <x-demo.checklist />
 
-    <x-astro.old-way-new-way />
+    <x-demo.old-way-new-way />
 
     <x-layouts.section-wide>
-        <x-astro.image-left />
-        <x-astro.image-right />
+        <x-demo.image-left />
+        <x-demo.image-right />
     </x-layouts.section-wide>
 
     <x-layouts.section-wide>
-        <x-astro.25-75 />
-        <x-astro.33-66 />
-        <x-astro.50-50 />
-        <x-astro.66-33 />
-        <x-astro.75-25 />
+        <x-demo.25-75 />
+        <x-demo.33-66 />
+        <x-demo.50-50 />
+        <x-demo.66-33 />
+        <x-demo.75-25 />
     </x-layouts.section-wide>
 
 
