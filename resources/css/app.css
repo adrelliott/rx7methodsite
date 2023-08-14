@@ -55,7 +55,7 @@
     @apply text-lg font-light tracking-wider;
   }
   p {
-    @apply mb-4 font-extralight;
+    @apply mb-4;
   }
   strong {
     @apply font-bold;
@@ -78,6 +78,8 @@
   p.lead, p.hero {
     @apply text-lg font-light -mt-3 mb-4;
   }
+
+
   article > p.lead {
     @apply pl-2 border-l-4 border-primary;
   }
