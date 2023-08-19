@@ -11,13 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::connection('content')->create('articles', function (Blueprint $table) {
+        Schema::connection('content')->create('article_tag', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
-            $table->string('slug')->index();
-            $table->unsignedBigInteger('category_id')->nullable();
-            $table->timestamps();
-            $table->softDeletes();
+            $table->unsignedBigInteger('article_id');
+            $table->unsignedBigInteger('tag_id');
         });
     }
 
@@ -26,6 +23,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('articles');
+        Schema::dropIfExists('article_tag');
     }
 };
